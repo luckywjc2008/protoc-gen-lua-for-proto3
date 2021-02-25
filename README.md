@@ -40,3 +40,5 @@ ProtoFiles 为 Proto编辑目录
     	print("deTest t3 = "..tostring(deTest.t3));
     	print("deTest t4 = "..tostring(deTest.t4));
     	print("deTest t5 = "..tostring(deTest.t5));
+
+如果对你有帮助请点个star
