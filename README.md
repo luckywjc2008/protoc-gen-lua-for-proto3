@@ -13,7 +13,7 @@ ProtoFiles 为 Proto编辑目录
 	将协议转成字节数组
 	C2M_Reload c2M_Reload = new C2M_Reload() {Account = account, Password = password};
 	byte[] result = c2M_Reload.ToByteArray();
-	将字节数组装成协议
+	将字节数组转成协议
                 C2M_Reload c2M_Reload2 = C2M_Reload.Parser.ParseFrom( result );
 
 3、lua篇
