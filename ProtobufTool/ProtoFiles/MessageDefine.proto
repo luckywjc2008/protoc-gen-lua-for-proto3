@@ -1,0 +1,37 @@
+﻿syntax = "proto3";
+package ETModel;
+
+message LoginData {
+	string UserName = 1;
+	string PassWord = 2;
+}
+
+message RegisterData {
+	string UserName = 1;
+	string PassWord = 2;
+}
+
+message VectorData {
+  float x = 1;
+  float y = 2;
+  float z = 3;
+}
+
+message UserNameList {
+	repeated string NameList = 1;
+}
+
+message NewPlayer {
+	string UserName = 1;
+}
+
+message PlayerData {
+	VectorData Pos = 1;
+	string UsrName = 2;
+	
+}
+
+message PlayerList {
+	repeated PlayerData PlayerList = 1;	
+}
+
